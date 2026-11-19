@@ -165,5 +165,6 @@ def main():
     print("\nUPDATED STORE:")
     store.show_all_sneakers()
 
-    
-main()
+
+if __name__ == "__main__":
+    main()
