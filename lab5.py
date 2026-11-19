@@ -79,7 +79,7 @@ class SportShoesStore:
         print("SportShoesStore deleted")
 
     def get_sneakers(self):
-            return self.__sneakers
+        return self.__sneakers
 
     def add_sneakers(self, sneakers):
         self.__sneakers.append(sneakers)
@@ -120,6 +120,7 @@ class SportShoesStore:
         for sneakers in self.__sneakers:
             print(sneakers)
             print("--------------------")
+
 
 def main():
     sneakers1 = Sneakers("Nike", 42, "Black", 4500, 10, "Leather", 150)
